@@ -22,9 +22,9 @@ const projects = [
     githubUrl: "https://github.com/AhmedTrb/RAG-Agent-for-Market-Research",
   },
    {
-    title: "E-bus CMD Project (C)",
-    description: "A command-line interface project for an E-bus system, implemented in the C programming language. Contains various personal projects and coursework.", // Updated description
-    technologies: ["C", "Algorithms", "Data Structures"], // Updated technologies focusing on C
+    title: "E-BUS", // Updated title
+    description: "A command-line interface project for an E-bus system, implemented in the C programming language. Contains various personal projects and coursework.", // Description remains relevant
+    technologies: ["C", "Algorithms", "Data Structures"], // Technologies remain relevant
     githubUrl: "https://github.com/GannouniAmine/Gannouni-Mohamed-amine",
   },
   // Add more projects as needed
