@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code, Database, Globe, Server } from "lucide-react";
+import { Code, Database, Globe, Server, Component, BrainCircuit, Braces } from "lucide-react"; // Added Component, BrainCircuit, Braces icons
 
 export function ProfileSummary() {
   return (
@@ -23,6 +23,7 @@ export function ProfileSummary() {
         </p>
         <div>
           <h3 className="text-xl font-semibold mb-4 text-primary">Key Skills</h3>
+          {/* Updated skills based on projects */}
           <div className="flex flex-wrap justify-center gap-2">
             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
               <Code className="mr-1 h-4 w-4" /> Java
@@ -33,19 +34,33 @@ export function ProfileSummary() {
              <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
               <Code className="mr-1 h-4 w-4" /> C/C++
             </Badge>
+             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
+              <Braces className="mr-1 h-4 w-4" /> JavaScript / TypeScript
+            </Badge>
             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
-              <Globe className="mr-1 h-4 w-4" /> HTML/CSS
+              <Component className="mr-1 h-4 w-4" /> React / Next.js
             </Badge>
              <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
-              <Code className="mr-1 h-4 w-4" /> JavaScript
+              <Globe className="mr-1 h-4 w-4" /> HTML / CSS / Tailwind
             </Badge>
-             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
-              <Server className="mr-1 h-4 w-4" /> SQL
+            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
+              <Server className="mr-1 h-4 w-4" /> PHP
+            </Badge>
+            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
+              <Server className="mr-1 h-4 w-4" /> Django
+            </Badge>
+            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
+              <Database className="mr-1 h-4 w-4" /> SQL
+            </Badge>
+            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
+              <BrainCircuit className="mr-1 h-4 w-4" /> AI/ML (Langchain)
             </Badge>
             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
               <Database className="mr-1 h-4 w-4" /> Git & GitHub
             </Badge>
-            {/* Add more skills as needed */}
+            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
+               <Database className="mr-1 h-4 w-4" /> Data Structures & Algorithms
+            </Badge>
           </div>
         </div>
       </CardContent>
