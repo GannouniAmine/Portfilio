@@ -41,26 +41,20 @@ export function ProfileSummary() {
               <Component className="mr-1 h-4 w-4" /> React / Next.js
             </Badge>
              <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
-              <Globe className="mr-1 h-4 w-4" /> HTML / CSS / Tailwind
+              <Globe className="mr-1 h-4 w-4" /> HTML / CSS
             </Badge>
             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
               <Server className="mr-1 h-4 w-4" /> PHP
             </Badge>
-            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
-              <Server className="mr-1 h-4 w-4" /> Django
-            </Badge>
+            {/* Removed Django Badge */}
             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
               <Database className="mr-1 h-4 w-4" /> SQL
             </Badge>
-            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
-              <BrainCircuit className="mr-1 h-4 w-4" /> AI/ML (Langchain)
-            </Badge>
+            {/* Removed AI/ML Badge */}
             <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
               <Database className="mr-1 h-4 w-4" /> Git & GitHub
             </Badge>
-            <Badge variant="secondary" className="text-sm py-1 px-3 rounded-full shadow-sm">
-               <Database className="mr-1 h-4 w-4" /> Data Structures & Algorithms
-            </Badge>
+            {/* Removed Data Structures & Algorithms Badge */}
           </div>
         </div>
       </CardContent>
