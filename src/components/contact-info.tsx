@@ -4,8 +4,8 @@ import { Mail, Linkedin, Github } from "lucide-react";
 
 export function ContactInfo() {
   // *** IMPORTANT: Replace placeholders with your actual information ***
-  const email = "mohamedamine.gannouni@ensi.ucar.tn"; // Replace with your email
-  const linkedInUrl = "https://www.linkedin.com/in/mohamed-amine-gannouni/"; // Replace with your LinkedIn profile URL
+  const email = "mohamedamine.gannouni@ensi-uma.tn"; // Updated email address
+  const linkedInUrl = "https://www.linkedin.com/in/mohamedamine-gannouni-b0a873298/"; // Updated LinkedIn profile URL
   const githubUrl = "https://github.com/GannouniAmine"; // Updated GitHub profile URL
 
   return (

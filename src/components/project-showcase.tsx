@@ -11,8 +11,8 @@ const projects = [
   },
   {
     title: "Web Project",
-    description: "A web application developed exploring various web technologies and backend integration.", // More descriptive based on repo name
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB"], // Example stack, adjust if known
+    description: "An e-commerce clothing store website developed using PHP, JavaScript, HTML, and CSS.", // Updated description
+    technologies: ["PHP", "JavaScript", "HTML", "CSS"], // Updated technologies
     githubUrl: "https://github.com/GannouniAmine/projet-web",
   },
   {
