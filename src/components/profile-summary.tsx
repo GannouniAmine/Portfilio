@@ -1,7 +1,15 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code, Database, Globe, Server } from "lucide-react";
+import { Code, Database, Globe, Server, Award } from "lucide-react"; // Added Award icon
+
+// Sample certification data (replace with actual data later)
+const certifications = [
+  { name: "AWS Certified Cloud Practitioner (Conceptual)", issuer: "AWS", icon: <Award className="mr-1 h-4 w-4" /> },
+  { name: "Google IT Support Professional Certificate (Conceptual)", issuer: "Google/Coursera", icon: <Award className="mr-1 h-4 w-4" /> },
+  // Add more certifications here
+];
+
 
 export function ProfileSummary() {
   return (
@@ -44,7 +52,24 @@ export function ProfileSummary() {
             <Badge variant="secondary" className="text-sm py-1 px-3">
               <Database className="mr-1 h-4 w-4" /> Git
             </Badge>
+            {/* Add more skills as needed */}
           </div>
+        </div>
+
+        {/* Certifications Section */}
+        <div className="mt-6">
+          <h3 className="text-xl font-semibold mb-3 text-primary">Certifications</h3>
+           <div className="flex flex-wrap justify-center gap-2">
+            {certifications.map((cert) => (
+               <Badge key={cert.name} variant="outline" className="text-sm py-1 px-3">
+                 {cert.icon} {cert.name}
+               </Badge>
+             ))}
+             {/* Placeholder if no certifications */}
+             {certifications.length === 0 && (
+                <p className="text-muted-foreground text-sm">No certifications listed yet.</p>
+             )}
+           </div>
         </div>
       </CardContent>
     </Card>
