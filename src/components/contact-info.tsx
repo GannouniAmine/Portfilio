@@ -6,7 +6,7 @@ export function ContactInfo() {
   // *** IMPORTANT: Replace placeholders with your actual information ***
   const email = "mohamedamine.gannouni@ensi.ucar.tn"; // Replace with your email
   const linkedInUrl = "https://www.linkedin.com/in/mohamed-amine-gannouni/"; // Replace with your LinkedIn profile URL
-  const githubUrl = "https://github.com/AmineGN"; // Replace with your GitHub profile URL
+  const githubUrl = "https://github.com/GannouniAmine"; // Updated GitHub profile URL
 
   return (
     <Card className="w-full shadow-lg rounded-lg overflow-hidden">

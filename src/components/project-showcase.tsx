@@ -6,26 +6,26 @@ const projects = [
     title: "Portfolio Website",
     description: "This personal portfolio, built with Next.js, Tailwind CSS, and ShadCN UI to showcase my skills, projects, and certifications.",
     technologies: ["Next.js", "React", "Tailwind CSS", "TypeScript", "ShadCN UI"],
-    githubUrl: "https://github.com/AmineGN/ensi-portfolio", // Replace with YOUR actual repo link
+    githubUrl: "https://github.com/GannouniAmine/ensi-portfolio", // Updated GitHub repo link
     // liveUrl: "#", // Add deployment link when available
   },
   {
     title: "Basic E-commerce Backend (Conceptual)",
     description: "Developed a conceptual RESTful API for a simple e-commerce platform during coursework, focusing on data modeling and API design.",
     technologies: ["Java", "Spring Boot", "JPA/Hibernate", "REST API", "SQL"],
-    githubUrl: "https://github.com/AmineGN/ecommerce-backend-concept", // Replace with YOUR actual repo link
+    githubUrl: "https://github.com/GannouniAmine/ecommerce-backend-concept", // Updated GitHub repo link
   },
   {
     title: "Data Structures & Algorithms Implementations",
     description: "A collection of classic data structures (linked lists, trees, graphs) and algorithms (sorting, searching) implemented in C++ and Python as part of university studies.",
     technologies: ["C++", "Python", "Data Structures", "Algorithms"],
-    githubUrl: "https://github.com/AmineGN/dsa-implementations", // Replace with YOUR actual repo link
+    githubUrl: "https://github.com/GannouniAmine/dsa-implementations", // Updated GitHub repo link
   },
    {
     title: "Simple Shell (Unix)",
     description: "A basic command-line interpreter (shell) created for an operating systems course, handling command execution, piping, and redirection.",
     technologies: ["C", "Unix/Linux API", "Operating Systems"],
-    githubUrl: "https://github.com/AmineGN/simple-shell", // Replace with YOUR actual repo link
+    githubUrl: "https://github.com/GannouniAmine/simple-shell", // Updated GitHub repo link
   },
   // Add more projects as needed
 ];
