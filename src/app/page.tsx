@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-primary text-primary-foreground py-4 shadow-md">
         <nav className="container mx-auto px-4 md:px-6 flex justify-between items-center">
-           <h1 className="text-xl font-semibold">ENSI Portfolio</h1>
+           <h1 className="text-xl font-semibold">My Portfolio</h1>
            {/* Basic navigation, can be expanded later */}
            {/* <div className="space-x-4">
              <a href="#projects" className="hover:text-accent transition-colors">Projects</a>
