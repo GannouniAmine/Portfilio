@@ -10,7 +10,7 @@ const projects = [
     // liveUrl: "#", // Add deployment link when available
   },
   {
-    title: "Web Project",
+    title: "E-commerce Clothing Store", // Changed title from "Web Project"
     description: "An e-commerce clothing store website developed using PHP, JavaScript, HTML, and CSS.", // Updated description
     technologies: ["PHP", "JavaScript", "HTML", "CSS"], // Updated technologies
     githubUrl: "https://github.com/GannouniAmine/projet-web",
