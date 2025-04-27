@@ -22,9 +22,9 @@ const projects = [
     githubUrl: "https://github.com/AhmedTrb/RAG-Agent-for-Market-Research",
   },
    {
-    title: "Personal Project/Coursework Repository",
-    description: "A repository hosting various personal projects and coursework developed during my studies at ENSI.", // Generic description
-    technologies: ["Java", "C", "System Design", "Algorithms"], // Example based on potential ENSI curriculum
+    title: "E-bus CMD Project (C)",
+    description: "A command-line interface project for an E-bus system, implemented in the C programming language. Contains various personal projects and coursework.", // Updated description
+    technologies: ["C", "Algorithms", "Data Structures"], // Updated technologies focusing on C
     githubUrl: "https://github.com/GannouniAmine/Gannouni-Mohamed-amine",
   },
   // Add more projects as needed
