@@ -17,13 +17,13 @@ const projects = [
   },
   {
     title: "RAG Agent for Market Research",
-    description: "A collaborative project implementing a Retrieval-Augmented Generation (RAG) agent for market research analysis, leveraging large language models.",
-    technologies: ["Python", "Langchain", "AI/LLM", "Vector Databases", "Streamlit"], // Added common RAG tools
+    description: "A collaborative project implementing a Retrieval-Augmented Generation (RAG) agent for market research analysis, leveraging large language models, with a web interface.",
+    technologies: ["Python", "Langchain", "AI/LLM", "Vector Databases", "Streamlit", "React", "Django"], // Added React and Django
     githubUrl: "https://github.com/AhmedTrb/RAG-Agent-for-Market-Research",
   },
    {
     title: "E-BUS", // Updated title
-    description: "A command-line interface project for an E-bus system, implemented in the C programming language. Contains various personal projects and coursework.", // Description remains relevant
+    description: "A command-line interface project for an E-bus system, implemented in the C programming language.", // Updated description
     technologies: ["C", "Algorithms", "Data Structures"], // Technologies remain relevant
     githubUrl: "https://github.com/GannouniAmine/Gannouni-Mohamed-amine",
   },
