@@ -32,7 +32,7 @@ export default function Home() {
 
       <footer className="bg-secondary py-6 text-center text-muted-foreground">
         <div className="container mx-auto px-4 md:px-6">
-          <p>&copy; {new Date().getFullYear()} Your Name Here. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Mohamed Amine Gannouni. All rights reserved.</p>
            <p className="text-xs mt-1">Built with Next.js & ShadCN UI</p>
         </div>
       </footer>

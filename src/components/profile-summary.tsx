@@ -8,11 +8,11 @@ export function ProfileSummary() {
     <Card className="w-full shadow-lg">
       <CardHeader className="flex flex-col items-center text-center space-y-4 pb-4">
         <Avatar className="w-24 h-24 border-4 border-primary">
-          <AvatarImage src="https://picsum.photos/seed/student/150/150" alt="Student Name" />
-          <AvatarFallback>SN</AvatarFallback>
+          <AvatarImage src="https://picsum.photos/seed/student/150/150" alt="Mohamed Amine Gannouni" />
+          <AvatarFallback>MG</AvatarFallback> {/* Updated Fallback */}
         </Avatar>
         <div>
-          <CardTitle className="text-2xl font-bold text-primary">Your Name Here</CardTitle>
+          <CardTitle className="text-2xl font-bold text-primary">Mohamed Amine Gannouni</CardTitle>
           <p className="text-lg text-muted-foreground">2nd Year Computer Science Student @ ENSI</p>
         </div>
       </CardHeader>
